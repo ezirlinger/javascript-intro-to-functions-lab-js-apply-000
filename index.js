@@ -5,5 +5,5 @@ function shout(string) {
 
 // Output is string should be lowercase using the toLowerCase() method
 function whisper(string) {
-  return string(toLowerCase)
+  return string.toLowerCase()
 }
