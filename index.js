@@ -54,7 +54,9 @@ function logShout(string) {
   })
 }) */
 
-// TEST 4 Output TBD
+// TEST 4 Output logWhipser calls whisper function - returns lowercase version of a string in whisper function
 function logWhisper(string) {
   console.log(whisper(string));
 }
+
+
