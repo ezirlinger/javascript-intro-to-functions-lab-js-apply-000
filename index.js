@@ -65,7 +65,7 @@ describe('logShout(string)', function() {
   })
 })*/
 
-// TEST 3 Output =
+// TEST 3 Output is expected to console.log calling the shout function
 
 function logShout(string) {
   console.log(shout());
