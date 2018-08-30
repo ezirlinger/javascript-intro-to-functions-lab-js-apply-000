@@ -1,21 +1,3 @@
-/*
-
-describe('sayHiToGrandma(string)', function() {
-  it('returns "I can\'t hear you!" if `string` is lowercase', function() {
-    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
-  })
-
-  it('returns "YES INDEED!" if `string` is uppercase', function() {
-    expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
-  })
-
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
-  })
-})
-*/
-
-
 /* TEST 1
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
@@ -56,7 +38,7 @@ describe('logShout(string)', function() {
 // TEST 3 Output logShout calls shout function - returns uppercase version of string in shout function
 
 function logShout(string) {
-  console.log(shout());
+  console.log(shout(string));
 }
 
 /* TEST 4
