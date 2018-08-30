@@ -56,5 +56,5 @@ function logShout(string) {
 
 // TEST 4 Output TBD
 function logWhisper(string) {
-  console.log(whisper());
+  console.log(whisper(string));
 }
