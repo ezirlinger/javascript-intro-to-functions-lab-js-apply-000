@@ -68,5 +68,5 @@ describe('logShout(string)', function() {
 // TEST 3 Output =
 
 function logShout(string) {
-  console.log(shout('HELLO'));
+  console.log(shout());
 }
