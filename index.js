@@ -74,7 +74,7 @@ describe('sayHiToGrandma(string)', function() {
   })
 }) */
 
-// TEST 5 Output TBD 
+// TEST 5 Output TBD
 function sayHiToGrandma(string) {
   if string.toLowerCase()==string {
     return "I can\'t hear you!";
@@ -84,4 +84,3 @@ function sayHiToGrandma(string) {
     return "I love you, too."
     }
   }
-    
