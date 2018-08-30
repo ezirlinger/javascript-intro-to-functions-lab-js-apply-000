@@ -1,4 +1,4 @@
-/* 
+/*
 
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
@@ -72,7 +72,7 @@ function logShout(string) {
   })
 }) */
 
-// TEST 4 Output TBD 
+// TEST 4 Output TBD
 function logWhisper(string) {
   console.log(whisper());
 }
