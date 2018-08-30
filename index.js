@@ -25,7 +25,7 @@ describe('shout(string)', function() {
 
 //TEST 1 Output =  string should be uppercase by using the toUpperCase() method
 function shout(string) {
-  return string.toUpperCase();
+  return string.toUpperCase()
 }
 
 /* TEST 2
