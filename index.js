@@ -1,16 +1,4 @@
-
-
-/* describe('logWhisper(string)', function() {
-  it('calls console.log() its one argument in all lowercase', function() {
-    const spy = expect.spyOn(console, 'log').andCallThrough()
-
-    logWhisper('HELLO')
-
-    expect(spy).toHaveBeenCalledWith('hello')
-
-    console.log.restore()
-  })
-})
+/* 
 
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
@@ -69,4 +57,22 @@ describe('logShout(string)', function() {
 
 function logShout(string) {
   console.log(shout());
+}
+
+/* TEST 4
+/* describe('logWhisper(string)', function() {
+  it('calls console.log() its one argument in all lowercase', function() {
+    const spy = expect.spyOn(console, 'log').andCallThrough()
+
+    logWhisper('HELLO')
+
+    expect(spy).toHaveBeenCalledWith('hello')
+
+    console.log.restore()
+  })
+}) */
+
+// TEST 4 Output TBD 
+function logWhisper(string) {
+  console.log(whisper());
 }
