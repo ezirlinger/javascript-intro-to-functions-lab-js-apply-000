@@ -74,11 +74,23 @@ describe('sayHiToGrandma(string)', function() {
   })
 }) */
 
-// TEST 5 Output TBD
+/* TEST 5 - String = placeholder.  Defined function sayHiToGrandma using if / else if.  
+Another option:
 function sayHiToGrandma(string) {
-  if (string.toLowerCase()==string) {
+if (string.toLowerCase() == string){
+  return "I can\'t hear you!";  
+} else if (string.toUpperCase() == string) {
+  return "YES INDEED!";
+} else if (string == "I love you, Grandma.") {
+return "I love you, too."
+}
+}
+
+*/
+function sayHiToGrandma(string) {
+  if (whisper(string)==string) {
     return "I can\'t hear you!";
-  } else if (string.toUpperCase()==string) {
+  } else if (shout(string)==string) {
     return "YES INDEED!";
   } else if (string== "I love you, Grandma.") {
     return "I love you, too."
