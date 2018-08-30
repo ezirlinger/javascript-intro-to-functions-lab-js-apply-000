@@ -1,6 +1,9 @@
-// Output is "SHOUT" using the toUpperCase() method
+// Output is string should be uppercase by using the toUpperCase() method
 function shout(string) {
   return string.toUpperCase()
 }
 
-// Output is "whisper" using the toLowerCase() method
+// Output is string should be lowercase using the toLowerCase() method
+function whisper(string) {
+  return string(toLowerCase)
+}
